@@ -7,6 +7,8 @@ const Profile = () => {
         <div className="profile">
             <img src={profilePic} alt="" />
             <h3>Benedict Ughulu</h3>
+            {/* slack user name */}
+            <h3 style={{ display: "none" }}>Benedict</h3>
         </div>
     )
 }
