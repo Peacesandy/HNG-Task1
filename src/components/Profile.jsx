@@ -8,7 +8,7 @@ const Profile = () => {
             <img src={profilePic} alt="" />
             <h3>Benedict Ughulu</h3>
             {/* slack user name */}
-            <h3 style={{ display: "none" }}>Benedict U048PDBA4BT </h3>
+            <h3 style={{ display: "none" }} id="slack">Benedict </h3>
         </div>
     )
 }
