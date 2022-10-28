@@ -137,6 +137,10 @@ body {
   width: 100px;
 }
 
+.mobile {
+  display: none;
+}
+
 .footer h3 span {
   background-color: #E7332B;
   color: #E7332B;
@@ -158,5 +162,13 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 10px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
   }
 }
