@@ -47,10 +47,10 @@ body {
   top: 1rem;
   right: 1rem;
   border-radius: 50%;
-  border: 1px dotted #D0D5DD;
-  width: 40px;
-  height: 40px;
+  border: 1px dotted #3a3c3f;
+  cursor: pointer;
   padding: 5px;
+  text-align: center;
 }
 
 .icon img {
@@ -109,6 +109,22 @@ body {
 
 /* logos styles ends */
 
+.share {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  font-size: inherit;
+  background-color: #101828;
+  color: #EAECF0;
+  padding: 4px 8px;
+  border-radius: 10px;
+  margin-left: -10px;
+  display: none;
+}
+
+.share.show {
+  display: block;
+}
 
 
 /* footer styles start */
@@ -141,16 +157,27 @@ body {
   display: none;
 }
 
+.footer h3 {
+  position: relative;
+}
+
 .footer h3 span {
   background-color: #E7332B;
   color: #E7332B;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 60%;
+  left: 33px;
   border-radius: 50%;
-  font-size: 8px;
+  margin: 0- 10px;
+
+
 }
 
 /* footer styles ends */
 
-@media(max-width:480px) {
+@media(max-width:700px) {
 
   .container {
     padding: 0 10px;
