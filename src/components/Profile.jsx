@@ -5,7 +5,7 @@ import mobile from "../image/mobile.png";
 import { useState } from "react"
 
 const Profile = () => {
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
 
     return (
         <div className="profile">
