@@ -1,7 +1,5 @@
-# Zuri intership day 1(stage1)
+# HNG Internship (stage1)
 
-by Ughulu Benedict
+by Peace Sandy
 
-## Preview
 
-![preview](../scr/preview.JPEG)
