@@ -2,7 +2,7 @@ export const links = [
     {
         id: 1,
         name: "Twitter",
-        url: "https://twitter.com/chrisBenedictA1",
+        url: "http://twitter.com/PeaceSandy3",
         linkID: "twitter"
     },
     {
