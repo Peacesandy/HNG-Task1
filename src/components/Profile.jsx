@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from "../image/IMG-20211218-WA0023.jpg"
+import profilePic from "../image/woman.png"
 import arrow from "../image/arrow.png";
 import mobile from "../image/mobile.png";
 import { useState } from "react"
@@ -10,9 +10,9 @@ const Profile = () => {
     return (
         <div className="profile">
             <img src={profilePic} alt="" id="profile__img" />
-            <h3 id='twitter'>Benedict Ughulu</h3>
+            <h3 id='twitter'>PeaceSandy3</h3>
             {/* slack user name */}
-            <h3 style={{ display: "none" }} id="slack">Benedict </h3>
+            <h3 style={{ display: "none" }} id="slack">Peace Sandy</h3>
             <div className="icon desktop" onClick={() => setShow(!show)} >
                 <img src={arrow} alt="" />
                 <p className={`share ${show && "show"}`}>share</p>
